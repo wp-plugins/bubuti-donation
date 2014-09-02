@@ -1,0 +1,64 @@
+/**
+ * Copyright (c) 2014 Bubuti
+ * This file is part of Bubuti Donation.
+ *
+ * Bubuti Donation is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * Bubuti Donation is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Bubuti Donation.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+.btn-bubuti-donate {
+    box-sizing: initial;
+    display: block;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 5px 15px 5px 50px;
+    white-space: nowrap;
+    width: 105px;
+}
+
+.btn-bubuti-donate-color-gray:link, .btn-bubuti-donate-color-gray:visited, .btn-bubuti-donate-color-gray:hover, .btn-bubuti-donate-color-gray:active {
+    color: #606060 !important;
+    text-decoration: none;
+}
+
+.btn-bubuti-donate-color-blue:link, .btn-bubuti-donate-color-blue:visited, .btn-bubuti-donate-color-blue:hover, .btn-bubuti-donate-color-blue:active {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.btn-bubuti-donate-color-gray {
+    background: #DCDCDE url(../img/btn-gray-icon.png) no-repeat 0px 0px;
+    background-size: 34px;
+}
+
+.btn-bubuti-donate-color-blue {
+    background: #129CDB url(../img/btn-blue-icon.png) no-repeat 0px 0px;
+    background-size: 34px;
+}
+
+.btn-bubuti-donate-placement-topLeft {
+    margin: 0 0 10px;
+}
+
+.btn-bubuti-donate-placement-topCenter {
+    margin: 0 auto 10px;
+}
+
+.btn-bubuti-donate-placement-bottomLeft {
+    margin: 10px 0 0;
+}
+
+.btn-bubuti-donate-placement-bottomCenter {
+    margin: 0 auto 10px;
+}

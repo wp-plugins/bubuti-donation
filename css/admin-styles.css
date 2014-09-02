@@ -1,0 +1,219 @@
+/**
+ * Copyright (c) 2014 Bubuti
+ * This file is part of Bubuti Donation.
+ *
+ * Bubuti Donation is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * Bubuti Donation is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Bubuti Donation.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+.cf:before, .cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+
+.sw-row-top {
+    border-top: 1px solid #e5e5e5;
+    margin: 15px 0 0;
+}
+
+.sw-white-bg {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.sw-label {
+    float: left;
+    font-size: 140%;
+    padding: 15px 0 0;
+    width: 15%;
+}
+
+.sw-form-content {
+    border-left: 1px solid #e5e5e5;
+    float: left;
+    padding: 0 10px;
+    width: 80%;
+}
+
+.sw-setting, .sw-setting-label {
+    padding-top: 20px;
+}
+
+.first .sw-setting, .first .sw-setting-label {
+    padding-top: 0;
+}
+
+.sw-form-content.first {
+    padding: 10px 10px 0;
+}
+
+.sw-setting-label {
+    width: 20%;
+    float: left;
+    margin-right: 40px;
+}
+
+.sw-setting {
+    float: left;
+}
+
+.sw-setting-name {
+    font-size: 105%;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.sw-question {
+    background-color: #e8e8e8;
+    font-size: 10px;
+    position: relative;
+    right: -5px;
+    text-align: center;
+    top: -2px;
+    width: 15px;
+
+    display: none;
+}
+
+.sw-question a:link, .sw-question a:visited, .sw-question a:hover, .sw-question a:active {
+    color: #666;
+    display: inline-block;
+    height: 17px;
+    text-decoration: none;
+    width: 15px;
+}
+
+.sw-setting-desc {
+    color: #b8b7b7;
+    font-size: 12px;
+}
+
+.sw-btn-bubuti-link:link, .sw-btn-bubuti-link:visited, .sw-btn-bubuti-link:hover, .sw-btn-bubuti-link:active {
+    background-color: #3197ED;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sw-btn-bubuti-go {
+    background-color: #2273B7;
+    display: inline-block;
+    height: 28px;
+    left: -3px;
+    padding: 5px 5px 5px 10px;
+    position: relative;
+    top: 6px;
+    width: 28px;
+}
+
+.sw-btn-bubuti-go img {
+    height: 25px;
+    width: 25px;
+}
+
+.sw-setting label {
+    line-height: 16px;
+    vertical-align: top;
+}
+
+.sw-setting input[type=text] {
+    background-color: #f7f7f7;
+    color: #d4d4d4;
+    height: 39px;
+    width: 250px;
+}
+
+input[type=checkbox]:checked:before {
+    color: #BDD44A;
+    outline: #BDD44A;
+}
+
+.sw-setting input[type=text].input-checkmark {
+    background-image: url(../img/checkmark_large.png);
+    background-position: 205px 6px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    color: #585858;
+}
+
+div.selectbox-wrapper ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+div.selectbox-wrapper ul li.selected {
+    background-color: #EAF2FB;
+}
+
+div.selectbox-wrapper ul li.current {
+    background-color: #CDD8E4;
+}
+
+div.selectbox-wrapper ul li {
+    cursor:pointer;
+    display:block;
+    list-style-type:none;
+    margin:0;
+    padding:2px;
+}
+
+#bubuti-act-btn-color_container li {
+    width: 211px;
+}
+
+#bubuti-act-btn-color_input {
+    background-image: url('../img/arrow_down.png');
+    background-position: 205px 0px;
+    background-repeat: no-repeat;
+    background-size: 44px;
+    color: #000;
+}
+
+#bubuti-act-btn-color_input_Choose, #bubuti-act-btn-color_input_gray, #bubuti-act-btn-color_input_blue {
+    color: #fff;
+    padding: 10px 15px;
+}
+
+#bubuti-act-btn-color_input_default {
+    display: none;
+}
+
+#bubuti-act-btn-color_input_gray {
+    background-color: #BDBDBD;
+}
+
+#bubuti-act-btn-color_input_blue {
+    background-color: #2894f0;
+}
+
+.sw-save-changes {
+    background-color: #2894f0;
+    border: 0;
+    color: #fff;
+    font-size: 85%;
+    padding: 5px 10px;
+}
+
+.sw-examples, .sw-btn-placement {
+    float: left;
+    width: 25%;
+}
+
+.sw-examples img {
+    display: none;
+}
+
+.sw-bubuti-hideme {
+    display: none;
+}

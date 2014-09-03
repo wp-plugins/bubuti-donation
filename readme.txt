@@ -6,7 +6,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Bubuti Donation is a WordPress plugin that gives your audience, friends and fans to your WordPress site, a way to contribute instantly. To set up Bubuti, it takes about 3 minutes.
+Bubuti Donation is a WordPress plugin that gives your audience, friends and fans to your WordPress site, a way to contribute instantly.
 
 == Description ==
 **Go Beyond Raising Awareness Online: Create Action & Empower your Audience to Donate!**
